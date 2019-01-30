@@ -1,0 +1,24 @@
+{
+  "name": "SavvyCoders",
+  "version": "1.0.0",
+  "description": "![my face](https://avatars1.githubusercontent.com/u/17262777?s=460&v=4)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktown5422/Savvy-Portfolio-Kevin-Townson.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ktown5422/Savvy-Portfolio-Kevin-Townson/issues"
+  },
+  "homepage": "https://github.com/ktown5422/Savvy-Portfolio-Kevin-Townson#readme",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "parcel-bundler": "^1.11.0"
+  }
+}
