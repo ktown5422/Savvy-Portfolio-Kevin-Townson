@@ -1,55 +1,133 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Kevin's Savvy Coder Website</title>
-    <style>
-        h1 {
-            background-color: aqua;
-            color: tomato;
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Kevin's Portfolio</title>
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+<style>
+
+        /*Reset*/
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        h2 {
-            color: chartreuse;
+        
+        /*Main Styling*/
+        
+        html,body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7em;
         }
-        h3 {
-            color: cadetblue;
+        h1, h2, h3 {
+            padding-bottom: 20px;
         }
         p {
-            font-size: 50px;
-            color: hotpink;
+            margin: 10px 0;
+        }   
+        
+        /*Navbar*/
+        
+        #navbar {
+            background: #333;
+            color: #fff;
+            overflow: auto;
         }
-        li {
-            color: greenyellow;
+        #navbar h1 {
+            float: left;
+            padding-top: 20px;
         }
+       
+       /*Utility Classes*/
+       
+       
+       
+       
+       /*Footer*/
+       
+       #footer-container {
+            background-color: #333;
+            position: relative;
+            height: 100px;
+            margin-top: -100px;
+            text-align: center;
+            clear: both;
+
+       }
+
+       #footer-container .social {
+           list-style-type: none;
+       }
+
+       #footer-container .social li a {
+           font-family: 'Permanent Marker', cursive;
+           float: right;
+           padding: 10px;
+           text-align: center;
+           }
+
+        #footer-container .copyright-text {
+            font-family: 'Open Sans', sans-serif;
+            float: left;
+            text-align: center;
+            padding: 10px;
+            font-size: 10px;
+            }
+
+
+
+           
     </style>
 </head>
 
 <body>
-    <h1>Hello Word</h1>
-    <h2>Also hello world</h2>
-    <h3>one more for good measure</h3>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo"><a href="index.html">My Portfolio</a>
+                </h1>
+                <ul>
 
-    <ol>
-        <li>GitHub</li>
-        <li>LinkedIn</li>
-        <li>Twitter</li>
-    </ol>
+                </ul>
+            </div>
+        </nav>
 
+            <div id="showcase">
+                <div class="container">
+                    <div class="showcase-content">
+                        <h1><span class="text-primary">Cyber</span>Entreprenuer and <span class="text-primary">Savvy</span>Coder</h1>
+                        <p>Hi, Im Kevin Townson a web developer in the Savvy Coders Cohort January 2019, Im Learning to write better HTML/CSS and getting a more structured understanding of the JavaScript Language.</p>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <section>
+        
+        <h1>Hello Word</h1>
+        <h2>Also hello world</h2>
+        <h3>one more for good measure</h3>
+    
+    
     <img src="https://avatars1.githubusercontent.com/u/17262777?s=460&v=4" alt="its me young smoove">
-   
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis dolorum earum rerum eaque tempora debitis, sapiente repellat ut. Eum optio cum deleniti quia explicabo pariatur saepe, accusamus voluptatum sequi nulla?</p>
 
-    <ul>
-        <li>
-            <a href="https://github.com/ktown5422">GitHub</a>
-        </li>
-        <li>
-            <a href="https://www.linkedin.com/in/kevin-townson-2ab596125/">LinkedIn</a>
-        </li>
-    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis dolorum earum rerum eaque tempora debitis, sapiente repellat ut. Eum optio cum deleniti quia explicabo pariatur saepe, accusamus voluptatum sequi nulla?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos dicta recusandae, provident facilis enim culpa harum quasi in, totam temporibus consequatur at adipisci delectus, et tempore consectetur accusamus a.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, necessitatibus maiores. Placeat alias a optio eligendi cumque dolore atque totam, incidunt omnis, ab possimus esse, dolor reprehenderit beatae assumenda hic?</p>
+    </section>
+    
+    <footer id="footer-container">
+            <p class="copyright-text">&copy; copyright 2019 Cyber Entreprenuer. Designed and Developed by Kevin Townson</p>
+            <ul class="social">
+                <li><a href="https://github.com/ktown5422">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/kevin-townson-2ab596125/">LinkedIn</a></li>
+                <li><a href="https://soundcloud.com/sanfordslab">SoundCloud</a></li>
+            </ul>
+    </footer>
 </body>
 
 </html>
