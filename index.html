@@ -34,15 +34,39 @@
         /*Navbar*/
         
         #navbar {
-            background: #333;
-            color: #fff;
+            background: #fff;
             overflow: auto;
         }
         #navbar h1 {
             float: left;
             padding-top: 20px;
+            text-decoration: none;
         }
-       
+
+        
+        #navbar ul a {
+            display: inline;
+            float: right;
+            padding: 10px;
+            padding-right: 50%;
+            text-align: center;
+        }
+        #navbar .container {
+            align-items: center;
+        }
+        .logo {
+            font-family: 'Permanent Marker', cursive;
+            color: #fff;
+        }
+        
+        /*Showcase*/
+
+        #showcase .showcase-content {
+            background-color:aqua;
+        }
+        #showcase .my-profile-pic {
+            border-radius: 
+        }
        /*Utility Classes*/
        
        
@@ -89,22 +113,20 @@
     <header>
         <nav id="navbar">
             <div class="container">
-                <h1 class="logo"><a href="index.html">My Portfolio</a>
-                </h1>
+                <h1 class="logo"><a href="index.html">My Portfolio</a></h1>
                 <ul>
-
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li>
                 </ul>
             </div>
         </nav>
-
-            <div id="showcase">
-                <div class="container">
-                    <div class="showcase-content">
-                        <h1><span class="text-primary">Cyber</span>Entreprenuer and <span class="text-primary">Savvy</span>Coder</h1>
-                        <p>Hi, Im Kevin Townson a web developer in the Savvy Coders Cohort January 2019, Im Learning to write better HTML/CSS and getting a more structured understanding of the JavaScript Language.</p>
-                    </div>
-                </div>
-            </div>
+        <section id="showcase">
+                <div class="showcase-content">
+                    <img class="my-profile-pic" src="https://avatars1.githubusercontent.com/u/17262777?s=460&v=4" alt="its me young smoove">
+                    <h1><span class="text-primary">Cyber</span>Entreprenuer and <span class="text-primary">Savvy</span>Coder</h1>
+                    <p>Hi, Im Kevin Townson a web developer in the Savvy Coders Cohort January 2019, Im Learning to write better HTML/CSS and getting a more structured understanding of the JavaScript Language.</p>
+                </div>    
+        </section>
     </header>
     <section>
         
@@ -112,12 +134,10 @@
         <h2>Also hello world</h2>
         <h3>one more for good measure</h3>
     
-    
-    <img src="https://avatars1.githubusercontent.com/u/17262777?s=460&v=4" alt="its me young smoove">
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis dolorum earum rerum eaque tempora debitis, sapiente repellat ut. Eum optio cum deleniti quia explicabo pariatur saepe, accusamus voluptatum sequi nulla?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos dicta recusandae, provident facilis enim culpa harum quasi in, totam temporibus consequatur at adipisci delectus, et tempore consectetur accusamus a.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, necessitatibus maiores. Placeat alias a optio eligendi cumque dolore atque totam, incidunt omnis, ab possimus esse, dolor reprehenderit beatae assumenda hic?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis dolorum earum rerum eaque tempora debitis, sapiente repellat ut. Eum optio cum deleniti quia explicabo pariatur saepe, accusamus voluptatum sequi nulla?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos dicta recusandae, provident facilis enim culpa harum quasi in, totam temporibus consequatur at adipisci delectus, et tempore consectetur accusamus a.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, necessitatibus maiores. Placeat alias a optio eligendi cumque dolore atque totam, incidunt omnis, ab possimus esse, dolor reprehenderit beatae assumenda hic?</p>
     </section>
     
     <footer id="footer-container">
