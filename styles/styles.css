@@ -1,9 +1,12 @@
-/*Reset*/
+        /*Reset*/
         
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: solid 1px red;
+    padding: 0;
+    margin: 10px;
 }
 
 /*Main Styling*/
@@ -62,7 +65,7 @@ p {
 }*/
 .logo {
     font-family: 'Permanent Marker', cursive;
-    
+    margin: 30px 10px;
 }
 
 /*Showcase*/
