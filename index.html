@@ -34,41 +34,69 @@
         /*Navbar*/
         
         #navbar {
-            background: #fff;
-            overflow: auto;
+          margin: 0;
+          padding: 0;
+          background: black;
+          overflow: auto;  
         }
         #navbar h1 {
             float: left;
             padding-top: 20px;
             text-decoration: none;
+            color: #fff;
         }
-
-        
-        #navbar ul a {
-            display: inline;
+        #navbar h1 a {
+            list-style: none;
+            text-decoration: none;
+        }
+        #navbar ul  {
             float: right;
-            padding: 10px;
-            padding-right: 50%;
+            list-style: none;
+            font-family: 'Permanent Marker', cursive;
+        }
+        #navbar ul li {
+            float: left;
+        }
+        #navbar ul li a {
+            display: block;
+            color: #fff;
             text-align: center;
+            padding: 20px;
+            text-decoration: none;
         }
-        #navbar .container {
+        #navbar ul li a:hover {
+            background: gray;
+            color: #fff;
+        }
+        /*#navbar .container {
             align-items: center;
-        }
+            width: 
+        }*/
         .logo {
             font-family: 'Permanent Marker', cursive;
-            color: #fff;
+            
         }
         
         /*Showcase*/
-
-        #showcase .showcase-content {
+        
+        .showcase-content {
             background-color:aqua;
+            
         }
-        #showcase .my-profile-pic {
-            border-radius: 
+        .my-profile-pic {
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+            
         }
+
        /*Utility Classes*/
-       
+       .container {
+           margin: auto;
+           max-width: 1100px;
+           overflow: auto;
+           padding: 0 20px;
+       }
        
        
        
@@ -111,22 +139,25 @@
 
 <body>
     <header>
-        <nav id="navbar">
+            <nav id="navbar">
+                <div class="container">
+                    <h1 class="logo"><a href="index.html">Kevin Townson</a></h1>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Me</a></li>
+                    </ul>
+                </div>    
+            </nav>
+
+        <div id="showcase">
             <div class="container">
-                <h1 class="logo"><a href="index.html">My Portfolio</a></h1>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Me</a></li>
-                </ul>
-            </div>
-        </nav>
-        <section id="showcase">
                 <div class="showcase-content">
                     <img class="my-profile-pic" src="https://avatars1.githubusercontent.com/u/17262777?s=460&v=4" alt="its me young smoove">
                     <h1><span class="text-primary">Cyber</span>Entreprenuer and <span class="text-primary">Savvy</span>Coder</h1>
                     <p>Hi, Im Kevin Townson a web developer in the Savvy Coders Cohort January 2019, Im Learning to write better HTML/CSS and getting a more structured understanding of the JavaScript Language.</p>
-                </div>    
-        </section>
+                </div>
+            </div>   
+        </div>
     </header>
     <section>
         
