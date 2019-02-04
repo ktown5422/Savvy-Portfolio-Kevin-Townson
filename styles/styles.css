@@ -22,17 +22,17 @@ p {
 
 /*Navbar*/
 
-#navbar {
+nav{
   margin: 0;
   padding: 10;  
 }
-#navbar li {
+#nav li {
     border: solid 1px red;
     color: honeydew;
     display: inline;
     
 }
-   #navbar .logo {
+   #nav li {
         font-family: 'Permanent Marker', cursive;
         margin: 30px 10px;
    }
@@ -67,14 +67,10 @@ p {
     align-items: center;
     width: 
 }*/
-}
+
 
 /*Showcase*/
 
-.showcase-content {
-    background-color:aqua;
-    
-}
 .my-profile-pic {
     border-radius: 50%;
     display: block;
