@@ -10,7 +10,11 @@
 
 /*Main Styling*/
 
+
 /*Navigation*/
+#navigation {
+    background-color: aqua;
+}
 #navigation li {
     display: inline;
     margin-right: 25px;
@@ -24,12 +28,15 @@
    margin: auto;
    max-width: 960px;
    overflow: auto;
-   background: orange;
+   /*background: orange;*/
    
 }
 
 .flt-lft {
     float: left;
 }
-
+/* Header */
+#header {
+    background-color: green;
+}
 /*Footer*/
