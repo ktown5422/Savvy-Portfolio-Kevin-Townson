@@ -1,42 +1,96 @@
         /*Reset*/
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /*Main Styling*/
         
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
+        body {
+            background-color: green; 
+            display: grid;
+            grid-template-rows: min-content min-content auto min-content;
+        }
+        /*Navigation*/
 
+        #navigation {
+            background-color: aqua;
+            position: sticky;
+            top: 0;
+          /*padding: 20px;
+            position: fixed; 
+           width: 100%;
+            top: 0;
+            left: 0; */
+        }
 
-/*Main Styling*/
+        #navigation li {
+            display: inline;
+            margin-right: 25px;
+            text-decoration: none;
+        }
 
+        #navigation a {
+            text-decoration: none;
+        }
 
-/*Navigation*/
-#navigation {
-    background-color: aqua;
-}
-#navigation li {
-    display: inline;
-    margin-right: 25px;
-    text-decoration: none;
-}
-#navigation a {
-    text-decoration: none;
-}
-/*Utility Classes*/
-.container {
-   margin: auto;
-   max-width: 960px;
-   overflow: auto;
-   /*background: orange;*/
-   
-}
+        #navigation ul {
+            list-style: block;
+        }
 
-.flt-lft {
-    float: left;
-}
-/* Header */
-#header {
-    background-color: green;
-}
-/*Footer*/
+        #navigation>ul>li, #footer li {
+            display: inline;
+            padding: 5px;
+        }
+
+        #navigation>ul>li {
+            position: relative;
+        }
+
+        #navigation>ul>li:hover>ul {
+            display: block;
+        }
+
+        #navigation>ul>li>ul {
+            position: absolute;
+            top: 25px;
+            right: 0;
+            left: 0;
+            background-color: brown;
+            display: none;
+        }
+
+        /*Utility Classes*/
+
+        .container {
+            margin: 0 auto;
+            max-width: 960px;
+            /*overflow: auto;*/
+            /*background: orange;*/
+        }
+
+        .flt-lft {
+            float: left;
+        }
+
+        /* Header */
+
+        #header {
+            /* background-color: green; */
+            margin-top: 0px;
+            padding-top: 15px;
+        }
+
+        /* Content */
+
+        #content {
+            background-color: green;
+            height: 100vh;
+        }
+        /*Footer*/
+
+        #footer {
+            background-color: aqua;
+        }
