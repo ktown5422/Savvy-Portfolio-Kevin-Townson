@@ -7,19 +7,22 @@
         }
 
         /*Main Styling*/
-        
+
         body {
-            background-color: green; 
+            background-color: green;
             display: grid;
+            grid-template-areas: "navigation" "header" "content" "footer";
             grid-template-rows: min-content min-content auto min-content;
         }
+
         /*Navigation*/
 
         #navigation {
             background-color: aqua;
             position: sticky;
             top: 0;
-          /*padding: 20px;
+            grid-area: navigation;
+            /*padding: 20px;
             position: fixed; 
            width: 100%;
             top: 0;
@@ -38,11 +41,15 @@
 
         #navigation ul {
             list-style: block;
+
         }
 
         #navigation>ul>li, #footer li {
-            display: inline;
             padding: 5px;
+        }
+
+        #footer li {
+            display: inline;
         }
 
         #navigation>ul>li {
@@ -60,6 +67,12 @@
             left: 0;
             background-color: brown;
             display: none;
+        }
+
+        #navigation>ul {
+            display: flex;
+            justify-content: space-around;
+            
         }
 
         /*Utility Classes*/
@@ -81,6 +94,7 @@
             /* background-color: green; */
             margin-top: 0px;
             padding-top: 15px;
+            grid-area: header;
         }
 
         /* Content */
@@ -88,9 +102,25 @@
         #content {
             background-color: green;
             height: 100vh;
+            grid-area: content;
         }
+
         /*Footer*/
 
         #footer {
             background-color: aqua;
+            grid-area: footer;
         }
+
+        @media(min-width: 800px) {
+            body {
+                grid-template-areas: "navigation  header" "navigation  content" "navigation  footer";
+                grid-template-rows: min-content auto min-content;
+                grid-template-columns: minmax(min-content, 15vw) auto;
+            }
+
+            #navigation>ul {
+                flex-direction: column;
+            }
+        }
+    
