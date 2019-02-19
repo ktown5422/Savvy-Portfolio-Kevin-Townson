@@ -1,49 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Permanent+Marker|Fjalla+One" rel="stylesheet">
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
+
 <body>
-    <div class="container">
-        <div id="navigation">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects/index.html">Projects</a></li>
-                <li><a href="blog/index.html">Blog</a></li>
+    <div id="navigation">
+            <ul class="container">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="blog/index.html">Blog</a></li>
+              <li><a href="contact/index.html">Contact</a></li>
+              <li><a href="projects/index.html">Projects</a>
+                <ul>
+                  <li><a href="#">First</a></li>
+                  <li><a href="#">Second</a></li>
+                  <li><a href="#">Third</a></li>
+                </ul>
+              </li>
             </ul>
-        </div>
-        <div id="header">
-            <h1>Get in Touch</h1>
+    </div>
 
-        </div>
-        <div id="content">
-            <form class="container" action="https://formspree.io/ktown5422@gmail.com" method="POST">
-                <label for="">First Name</label>
-                <input type="text" name="fname" id="fname" required>
+    <div id="header">
+        
+    </div>
+    
+    <div id="content">
+        <div class="container">
+                <h1>Get in Touch</h1>
+                <form action="https://formspree.io/ktown5422@gmail.com" method="POST">
+                    <label for="">First Name</label>
+                    <input type="text" name="fname" id="fname" required>
 
-                <label for="">Last Name</label>
-                <input type="text" name="lname" id="lname" required>
-                
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" required>
-                
-                <label for="phone">Phone</label>
-                <input type="tel" name="phone" id="phone">
+                    <label for="">Last Name</label>
+                    <input type="text" name="lname" id="lname" required>
+                    
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                    
+                    <label for="phone">Phone</label>
+                    <input type="tel" name="phone" id="phone">
 
-                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Please enter your message here"></textarea>
+                    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Please enter your message here"></textarea>
 
-                <input type="submit" value="Submit">
-                <input type="reset" value="Clear">
-            </form>
-
-        </div>
-        <div id="footer">
-
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Clear">
+                </form>
         </div>
     </div>
+
+    <div id="footer">
+        <div class="container">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/kevin-townson-2ab596125/"><i class="fab fa-linkedin"></i>Linkedin</a></li>
+                <li><a href="https://github.com/ktown5422"><i class="fab fa-github"></i>Github</a></li>
+                <li><a href="https://soundcloud.com/sanfordslab"><i class="fab fa-soundcloud"></i>Sound Cloud</a></li>
+            </ul>
+        </div>
+    </div>
+
+        
+    
 </body>
 </html>
