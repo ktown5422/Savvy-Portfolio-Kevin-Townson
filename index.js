@@ -1,5 +1,10 @@
-// Put 'name' in the global scope so it is reliably accessible by both functions.
 
+
+// Put 'name' in the global scope so it is reliably accessible by both functions.
+import Navigation from './src/Navigation';
+import Header from './src/Header';
+import Content from './src/Content';
+import Footer from './src/Footer';
 var name;
 
 // Verify that user entered some name
@@ -21,5 +26,15 @@ var nameChecker = function nameChecker(){
 
     document.querySelector('h1').textContent = `Hello, ${name}`;
 };
+
+
+document.body.innerHTML =  `
+
+${Navigation}
+${Header}
+${Content}
+${Footer}
+
+`;
 
 nameChecker();
