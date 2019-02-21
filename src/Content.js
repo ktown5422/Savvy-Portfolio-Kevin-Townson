@@ -1,4 +1,5 @@
-export default `
+export default function Content(){
+    return `
 
 <div id="content">
     <section class="minipic">
@@ -23,4 +24,4 @@ export default `
     </section>
 </div>
 `;
-
+}

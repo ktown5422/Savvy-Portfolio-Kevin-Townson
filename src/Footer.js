@@ -1,4 +1,5 @@
-export default `
+export default function(){
+    return `
 
 <div id="footer">
     <div class="container">
@@ -11,3 +12,4 @@ export default `
     </div>
   </div>
   `;
+}
