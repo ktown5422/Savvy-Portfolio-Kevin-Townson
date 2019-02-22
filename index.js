@@ -38,20 +38,12 @@ render(home);
 document.querySelector('#navigation li:nth-child(1) > a')
 .addEventListener('click', (e) => {
     e.preventDefault ();
-    console.log(e.target.textContent);
-    console.log(e.target.outerHTML);
-    console.log(e.innerHTML);
-    console.log(e.target.href);
     render(home);
 });
 
 document.querySelector('#navigation li:nth-child(2) > a')
 .addEventListener('click', (e) => {
     e.preventDefault ();
-    console.log(e.target.textContent);
-    console.log(e.target.outerHTML);
-    console.log(e.innerHTML);
-    console.log(e.target.href);
     render(blog);
     
 });
@@ -59,10 +51,6 @@ document.querySelector('#navigation li:nth-child(2) > a')
 document.querySelector('#navigation li:nth-child(3) > a')
 .addEventListener('click', (e) => {
     e.preventDefault ();
-    console.log(e.target.textContent);
-    console.log(e.target.outerHTML);
-    console.log(e.innerHTML);
-    console.log(e.target.href);
     render(contact);
     
 });
@@ -71,10 +59,6 @@ document.querySelector('#navigation li:nth-child(3) > a')
 document.querySelector('#navigation li:nth-child(4) > a')
 .addEventListener('click', (e) => {
     e.preventDefault ();
-    console.log(e.target.textContent);
-    console.log(e.target.outerHTML);
-    console.log(e.innerHTML);
-    console.log(e.target.href);
     render(projects);
     
 });
