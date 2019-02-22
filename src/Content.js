@@ -21,6 +21,7 @@ export default function Content(){
 
             <a class="action-btn" href="mailto:ktown5422@gmail.com?Subject=Contact%20Form"><span="tent-word">Hire Me</span></a>
       </div>
+      <button id="test">Click Me!</button> 
     </section>
 </div>
 `;
