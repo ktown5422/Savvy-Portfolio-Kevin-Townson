@@ -8,28 +8,41 @@ import nameChecker from './src/Greeter';
 
 
 var State = { 
-    'Home':  {
-        'title': 'Welcome to my Website'
-},
+        'Home':  {
+            'links': [ 'Home', 'Blog', 'Contact', 'Projects' ],
+            'title': 'Welcome to my Website'
+    },
 
-    'Blog':  {
-        'title': 'Welcome to my Blog'
-},
+        'Blog':  {
+            'links': [ 'Home', 'Blog', 'Contact', 'Projects' ],
+            'title': 'Welcome to my Blog'
+    },
 
-    'Contact':  {
-        'title': 'Welcome to my Contact'
-},
+        'Contact':  {
+            'links': [ 'Home', 'Blog', 'Contact', 'Projects' ],
+            'title': 'Welcome to my Contact'
+    },
 
-    'Projects':  {
-        'title': 'Welcome to my Projects'
-}
+        'Projects':  {
+            'links': [ 'Home', 'Blog', 'Contact', 'Projects' ],
+            'title': 'Welcome to my Projects'
+    }
 };
 
 var root = document.querySelector('#root');
+var render;
 
-function render(state){
+function navHandler(event){
+    event.preventDefault();
+
+    render(State[event.target.textContent]);
+}
+
+render = function Render(state){
     var links;
+    var i = 0;
     
+    //Grab each component and update #root's HTML with the generated HTML that works with State
     root.innerHTML = `
     ${Navigation(state)}
     ${Header(state.title)}
@@ -39,12 +52,30 @@ function render(state){
     
     links = document.querySelectorAll('#navigation > ul > li > a'); 
 
-    links[0].addEventListener('click', (event) => {
-        event.preventDefault();
-        render(State[event.target.textContent]);
+    while(i < links.length){
+        
+        links[i].addEventListener('click', (event) => {
+            event.preventDefault();
+    
+            render(State[event.target.textContent]);
+        
     });
 
-    links[1].addEventListener('click', (event) => {
+    links[i].addEventListener('click', navHandler);
+
+    i++;
+  }
+
+}
+
+render(State.Home);
+
+
+
+
+
+
+    /*links[1].addEventListener('click', (event) => {
         event.preventDefault();
         render(State[event.target.textContent]);
     });
@@ -57,10 +88,7 @@ function render(state){
     links[3].addEventListener('click', (event) => {
         event.preventDefault();
         render(State[event.target.textContent]);
-    });
-}
-
-render(State.Home);
+    });*/
 
  /*document.querySelector('#navigation li:first-child')
 .addEventListener('click', (e) => {

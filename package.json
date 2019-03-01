@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/ktown5422/Savvy-Portfolio-Kevin-Townson#readme",
   "devDependencies": {
+    "cssnano": "^4.1.10",
     "eslint": "^5.12.1",
     "parcel-bundler": "^1.11.0"
-  }
+  },
+  "build": "parcel build index.html && cp _redirects ./dist/"
 }
