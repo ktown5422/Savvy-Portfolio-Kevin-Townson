@@ -24,6 +24,7 @@
   },
   "build": "parcel build index.html && cp _redirects ./dist/",
   "dependencies": {
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.11",
+    "navigo": "^7.1.2"
   }
 }

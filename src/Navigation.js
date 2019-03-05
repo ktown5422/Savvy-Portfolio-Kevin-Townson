@@ -1,9 +1,11 @@
+import { lowerCase } from 'lodash';
+
 function linkBuilder(linksArr){
     var i = 0;
     var linksHTML = '';
 
     while(i < linksArr.length){
-        linksHTML += `<li><a href="./${linksArr[i]}">${linksArr[i]}</a></li>`;
+        linksHTML += `<li><a href="./${lowerCase(linksArr[i])}">${linksArr[i]}</a></li>`;
         i++;
     }
 
@@ -31,7 +33,8 @@ export default function Navigation(state){
               <li><a href="#">First</a></li>
               <li><a href="#">Second</a></li>
               <li><a href="#">Third</a></li>
-            </ul>
+            <
+            /ul>
           </li>
         </ul>
       </div> */
