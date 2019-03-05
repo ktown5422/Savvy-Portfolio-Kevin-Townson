@@ -22,5 +22,8 @@
     "eslint": "^5.12.1",
     "parcel-bundler": "^1.11.0"
   },
-  "build": "parcel build index.html && cp _redirects ./dist/"
+  "build": "parcel build index.html && cp _redirects ./dist/",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
 }

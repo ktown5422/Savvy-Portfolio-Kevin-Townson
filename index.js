@@ -2,15 +2,16 @@ import Navigation from './src/Navigation';
 import Header from './src/Header';
 import Content from './src/Content';
 import Footer from './src/Footer';
-import nameChecker from './src/Greeter';
+import { startCase } from 'lodash';
 
+console.log(lodash);
 
 
 
 var State = { 
         'Home':  {
             'links': [ 'Home', 'Blog', 'Contact', 'Projects' ],
-            'title': 'Welcome to my Website'
+            'title': 'Welcome to my Portfolio'
     },
 
         'Blog':  {
@@ -33,9 +34,11 @@ var root = document.querySelector('#root');
 var render;
 
 function navHandler(event){
+    var destination = startCase(event.target.textContent);
+
     event.preventDefault();
 
-    render(State[event.target.textContent]);
+    render(State[destination]);
 }
 
 render = function Render(state){
@@ -54,23 +57,19 @@ render = function Render(state){
 
     while(i < links.length){
         
-        links[i].addEventListener('click', (event) => {
-            event.preventDefault();
-    
-            render(State[event.target.textContent]);
-        
-    });
+        links[i].addEventListener('click', navHandler);
 
-    links[i].addEventListener('click', navHandler);
+        i++;
+    }
 
-    i++;
-  }
-
-}
+};
 
 render(State.Home);
 
-
+/* links[i].addEventListener('click', (event) => {
+            event.preventDefault();
+    
+            render(State[event.target.textContent]);              */ 
 
 
 
