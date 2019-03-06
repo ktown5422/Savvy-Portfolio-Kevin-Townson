@@ -19,9 +19,8 @@ export default function Content(){
 
             <p>below are links to my social accounts check them out</p>
 
-            <a class="action-btn" href="mailto:ktown5422@gmail.com?Subject=Contact%20Form"><span="tent-word">Hire Me</span></a>
+            <a class="action-btn" href="mailto:ktown5422@gmail.com?Subject=Contact%20Form"><span class="tent-word">Hire Me</span></a>
       </div>
-      <button id="test">Click Me!</button> 
     </section>
 </div>
 `;

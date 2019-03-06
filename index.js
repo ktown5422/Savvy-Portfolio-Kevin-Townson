@@ -10,16 +10,6 @@ var router = new Navigo(location.origin);
 var root = document.querySelector('#root');
 
 
-/* function navHandler(event){
-    var destination = startCase(event.target.textContent);
-
-    event.preventDefault();
-
-    render(State[destination]);
-}
-*/
-
-
 function render(state){
     root.innerHTML = `
     ${Navigation(state)}

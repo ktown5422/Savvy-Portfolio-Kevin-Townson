@@ -97,9 +97,7 @@
         /* Header */
 
         #header {
-            /* background-color: green; */
             margin-top: 0px;
-            /* padding-top: 15px; */
             grid-area: header;
         }
 
@@ -164,7 +162,7 @@
 
         #content {
             /* background-color: green; */
-            height: 91vh;
+            height: 79vh;
             grid-area: content;
         }
         
