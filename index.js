@@ -5,18 +5,37 @@ import Footer from './src/Footer';
 import * as State from './state';
 import { startCase } from 'lodash';
 import Navigo from 'navigo';
- 
+import axios from 'axios';
+
 var router = new Navigo(location.origin);
 var root = document.querySelector('#root');
 
 
 function render(state){
+    // console.log(state.links)
+    if(!state.links.includes('Blog')){
+        state.posts = [];
+        
+        axios
+            .get('https://jsonplaceholder.typicode.com/posts')
+            .then((response) => {
+                state.posts = response.data;
+               
+                root.innerHTML = `
+                ${Navigation(state.links)}
+                ${Header(state.title)}
+                ${Content(state.posts)}
+                ${Footer(state)}
+                `;
+            });
+    }
+
     root.innerHTML = `
-    ${Navigation(state)}
-    ${Header(state.title)}
-    ${Content(state)}
-    ${Footer(state)}
-    `;
+                ${Navigation(state.links)}
+                ${Header(state.title)}
+                ${Content(state.posts)}
+                ${Footer(state)}
+                `;
 
     router.updatePageLinks();
 }
