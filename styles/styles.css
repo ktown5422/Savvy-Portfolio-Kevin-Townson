@@ -93,7 +93,12 @@
             /*overflow: auto;*/
             /*background: orange;*/
         }
+        .fab {
+            margin-right: 10px;
+            width: 20px; 
+        }
 
+        }
         /* Header */
 
         #header {
@@ -120,16 +125,16 @@
             border-radius: 50%;
         }
 
-        .minipic-content h1 {
+        .minipic h1 {
             font-size: 2em;
             font-weight: 300;
             color: #373d46;
         }
         
-        .minipic-content p {
+        .minipic p {
             font-weight: 300;
             line-height: 1.8em;
-            color: #98a0ad;
+            color: #373d46;
         }
         
         .action-btn {
@@ -161,11 +166,13 @@
         /* Content */
 
         #content {
-            /* background-color: green; */
             height: 79vh;
             grid-area: content;
         }
         
+        #content img, h1, p, a.action-btn {
+            text-align: center;
+        }
 
         /*Footer*/
 
