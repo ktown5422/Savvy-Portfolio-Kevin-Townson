@@ -11,10 +11,11 @@ export default function Contact(){
                     
                     <label for="email">Email</label>
                     <input type="email" name="email" id="email" required>
-                    
+                    <br>
                     <label for="phone">Phone</label>
                     <input type="tel" name="phone" id="phone">
-
+                    <br>
+                    <br>
                     <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Please enter your message here"></textarea>
 
                     <input type="submit" value="Submit">

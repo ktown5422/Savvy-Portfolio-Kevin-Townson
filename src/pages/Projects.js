@@ -3,7 +3,7 @@ export default function Projects(){
     <h3>Check Out My Work</h3>
     <br>
     <div class="card">
-        <img src="https://doc-04-8k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/hmguil8eq614hqfe76pgh1mq5h8utp2q/1554933600000/03250597497955045266/*/19L2wDTZnb_WhYSFPE3_8RWZYjeFCMlsy" class="card-image">
+        <img src="https://doc-04-8k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/rkf1nfgf20di7ebn9bveq1t2aq5qtt8l/1555012800000/03250597497955045266/*/19L2wDTZnb_WhYSFPE3_8RWZYjeFCMlsy" class="card-image">
         <div class="card-footer">
             <div class="card-title">
                 MeMusic

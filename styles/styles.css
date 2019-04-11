@@ -212,7 +212,7 @@
 
         /* Style the Form */
 
-        input[type=text], select, textarea {
+        input[type=text], select, textarea, [type=email], [type=tel] {
             width: 100%;
             padding: 12px;
             border: 1px solid #ccc;
@@ -226,7 +226,7 @@
           }
           
           input[type=submit], [type=reset] {
-            background-color: #4CAF50;
+            background-color: #1976d2;
             color: white;
             padding: 12px 20px;
             border: none;
@@ -236,13 +236,14 @@
           }
           
           input[type=submit]:hover {
-            background-color: #45a049;
+            background-color:#1976d2;
+            color:white;
           }
         
         /* Content */
 
         #content {
-            height: 79vh;
+            height: 100vh;
             grid-area: content;
         }
         
