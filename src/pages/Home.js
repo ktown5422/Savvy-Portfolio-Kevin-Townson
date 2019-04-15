@@ -7,8 +7,7 @@ export default function Home(){
 
 
 
-    <p>Hi, Im Kevin Townson a web developer in the Savvy Coders Cohort January 2019, Im Learning to write better
-    HTML/CSS and getting a more structured understanding of the JavaScript Programming Language.
+    <p>Aspiring Developer looking to help businesses build an online presence, so that they can reach their target audience more effectively. With previous experience working for a start-up company while learning HTML/CSS. Savvy Coder Graduate Looking to expand skills in Software Development as a Junior Software Developer, always learning in order to increase productivity.UX/UI, Prototyping, Mockups, Wireframing, Agile, Kanban, Object Oriented Javascript, Functional Programming, HTML5, CSS3, JQuery, JSON, WebAPI, Node.js, Express.js, Trello, GitHub, Netlify, GitBash, Parcell, MongoDB, Visual Studio Code, Codecademy, JS Fiddle, AXIOS, Lodash, Navigo, AdobeXD
     <br>
     below are links to my social accounts check them out</p>
 
