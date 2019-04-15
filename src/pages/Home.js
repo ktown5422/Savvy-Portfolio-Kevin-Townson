@@ -3,7 +3,7 @@ export default function Home(){
     <div class="minipic">
     <img src="https://avatars1.githubusercontent.com/u/17262777?s=460&v=4" alt="Handsome Pic Me"/>
         
-    <h1>Savvy Coder | Cyber Entreprenuer</h1>
+    <h1>Kevin Townson | Cyber Entreprenuer</h1>
 
 
 
