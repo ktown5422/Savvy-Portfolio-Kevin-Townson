@@ -3,8 +3,9 @@ export default function Projects(){
     <h3>Check Out My Work</h3>
     <br>
     <div class="card">
-        <img src="https://doc-10-8k-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/jgn604ss0msea3vss3vach96prgqf2ut/1555351200000/03250597497955045266/*/1ETOB7ThA0omoWPsliMLWGU-TRPGOkbsb" class="card-image">
-        <div class="card-footer">
+    <img class="card-image"
+     src="KevinTownson/memusicimg.jpg" alt="Project Pic" />
+    <div class="card-footer">
             <div class="card-title">
                 MeMusic
             </div>

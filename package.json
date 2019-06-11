@@ -21,11 +21,13 @@
   "devDependencies": {
     "cssnano": "^4.1.10",
     "eslint": "^5.12.1",
-    "parcel-bundler": "^1.11.0"
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.19.0"
   },
   "dependencies": {
     "axios": "^0.18.0",
     "lodash": "^4.17.11",
-    "navigo": "^7.1.2"
+    "navigo": "^7.1.2",
+    "node-sass": "^4.12.0"
   }
 }
