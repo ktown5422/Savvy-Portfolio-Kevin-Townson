@@ -4,7 +4,7 @@ export default function Projects(){
     <br>
     <div class="card">
     <img class="card-image"
-     src="KevinTownson/memusicimg.jpg" alt="Project Pic" />
+     src="https://raw.githubusercontent.com/ktown5422/Savvy-Portfolio-Kevin-Townson/master/memusicimg.jpg" alt="Project Pic" />
     <div class="card-footer">
             <div class="card-title">
                 MeMusic
@@ -18,5 +18,6 @@ export default function Projects(){
             </a>
         </div>
     </div>
+    
     `;
 }
