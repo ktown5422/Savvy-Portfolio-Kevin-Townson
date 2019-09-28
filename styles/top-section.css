@@ -12,21 +12,12 @@
 
 }
 
-#top .img #background-img {
-    background: url("https://raw.githubusercontent.com/ktown5422/Savvy-Portfolio-Kevin-Townson/master/IMG_1742.jpg");
+#top .img .background-img{
+    background: url("https://raw.githubusercontent.com/ktown5422/Savvy-Portfolio-Kevin-Townson/master/imgkevin.jpg");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     max-width: 500px;
     height: 700px;
-    margin-top: 1px;
 }
-
-#background-img, .rotate90{
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-} 
