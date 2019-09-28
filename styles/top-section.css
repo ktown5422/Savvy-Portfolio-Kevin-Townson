@@ -1,0 +1,20 @@
+#top{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#top .info{
+
+}
+
+#top .img{
+
+}
+
+#top .img .background-img{
+    background: url('');
+    width: 100%;
+    height: 700px;
+
+}
