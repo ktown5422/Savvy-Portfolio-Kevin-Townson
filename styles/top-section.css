@@ -35,6 +35,16 @@
     z-index: 1;
 }
 
+#top .info h3{
+    position: relative;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #16171b;
+    margin-bottom: 2rem;
+    z-index: 1;
+}
+
+
 #top .info p{
     position: relative;
     color: #919191;
