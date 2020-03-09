@@ -46,16 +46,16 @@
     left: 50px;
 }
 #experience-section .experience-container .large-icons .white-box{
-color: #ffc853;
-display: flex;
-justify-content: center;
-align-items:center;
-border-radius: 50%;
-height: 150px;
-width: 150px;
-font-size: 1.1rem;
-letter-spacing: 3px;
-text-transform: uppercase;
+    color: #ffc853;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 #experience-section .experience-container .large-icons .triangle{
     width: 0px;
