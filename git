@@ -1,0 +1,347 @@
+[33mcommit c7641f3d4f1e9071caea775ec0ffb448e4896b01[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Mon Mar 23 21:24:48 2020 -0500
+
+    update media query-experience
+
+[33mcommit e1fb605b75dd1955e2720ccb594cb966a47b2e7e[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: ktown5422 <ktown5422@gmail.com>
+Date:   Thu Mar 12 15:33:32 2020 -0500
+
+    update blog, footer, and scale to phones
+
+[33mcommit 9509349dd92347c1b3726c5f8af39127008ffc73[m
+Author: ktown5422 <ktown5422@gmail.com>
+Date:   Tue Mar 10 12:03:13 2020 -0500
+
+    update footer
+
+[33mcommit dc93860e3e392b626b501161a9242db9b4032f3e[m
+Author: ktown5422 <ktown5422@gmail.com>
+Date:   Mon Mar 9 09:18:58 2020 -0500
+
+    update blog
+
+[33mcommit fe75b8d42b59c604a604d3a790ab7232fa4d4c22[m
+Author: ktown5422 <ktown5422@gmail.com>
+Date:   Thu Oct 10 13:48:28 2019 -0500
+
+    update experience section
+
+[33mcommit e21e1a4025a6dc3a07829998e19c5c0a201f2e10[m
+Author: ktown5422 <ktown5422@gmail.com>
+Date:   Thu Oct 3 15:45:55 2019 -0500
+
+    add portfolio section
+
+[33mcommit 4f9370bd8c78030fe6598fef12d2fb8cb43c2a32[m
+Author: ktown5422 <ktown5422@gmail.com>
+Date:   Sat Sep 28 11:31:54 2019 -0500
+
+     portfolio update services
+
+[33mcommit 8c858869ebb1a21559827be194d3aa727ba79172[m
+Author: ktown5422 <ktown5422@gmail.com>
+Date:   Sat Sep 28 02:55:29 2019 -0500
+
+     portfolio update profile section
+
+[33mcommit 2c10c925336058831f0fa88da9fb7f9eb0f8b05d[m
+Author: ktown5422 <ktown5422@gmail.com>
+Date:   Sat Sep 28 00:16:34 2019 -0500
+
+     portfolio update
+
+[33mcommit ec43433d66382e7145c4db04840efc4bb08daebf[m
+Author: ktown5422 <ktown5422@gmail.com>
+Date:   Fri Sep 27 23:50:29 2019 -0500
+
+    new update 2 portfolio
+
+[33mcommit 58ebe212fc4d9a2a3a440ef24052fbb46e2f2764[m
+Author: ktown5422 <ktown5422@gmail.com>
+Date:   Fri Sep 27 22:43:32 2019 -0500
+
+    new update to portfolio
+
+[33mcommit 7f1f61776d0d470b4cbf155079104d450702b8fb[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Tue Jun 18 12:22:23 2019 -0500
+
+    update package json files
+
+[33mcommit 602a9855925a4ab2aa0aae16f70810f2557fccba[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Tue Jun 11 12:41:23 2019 -0500
+
+    update img eith url
+
+[33mcommit ec5c1e67e0cd602221df2e3e1e72a3323401ffcf[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Mon Jun 10 20:59:25 2019 -0500
+
+    update img
+
+[33mcommit 1096b71cfd71ccdad18460a926d4d6dad8fde30c[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Mon Apr 15 13:45:02 2019 -0500
+
+    update h1 info
+
+[33mcommit cb79f91015cee844d75d570b9a1e178cde9161b4[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Mon Apr 15 13:41:17 2019 -0500
+
+    update p info
+
+[33mcommit 5a54f8924dfd4b804b7c596807cff64bdceb8b24[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Mon Apr 15 13:37:41 2019 -0500
+
+    update card pic
+
+[33mcommit 7e7a21d3572fd0f97832b39ffe555996a81c5b41[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Thu Apr 11 15:10:14 2019 -0500
+
+    add image
+
+[33mcommit e62608a9dd153e9e1177e756da9bb4480dbd20d2[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Wed Apr 10 17:53:14 2019 -0500
+
+    add pic to project card
+
+[33mcommit 1d8d1e974ae6246e98a8ced7b20cd81668564d32[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Wed Apr 10 05:32:47 2019 -0500
+
+    add card to projects
+
+[33mcommit 1702e78d0de15762781b0551f49746cab6e4bfd2[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Wed Mar 20 19:33:30 2019 -0500
+
+    fix css
+
+[33mcommit a7a0ebd489e5ae0da7f4ea64475d4ace1b3a7139[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Wed Mar 20 18:44:28 2019 -0500
+
+    fix build script in package json
+
+[33mcommit a9c65385707f8a500d6c740da4d28db592189309[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Mon Mar 18 19:44:54 2019 -0500
+
+    copy dist into build script
+
+[33mcommit 91a25e08d2c32cd8547337f1c11c138c3962c9f7[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Tue Mar 5 19:56:27 2019 -0600
+
+    refactor to use for each instead of while
+
+[33mcommit 024f1b9d16282eea7f981df695227e398443947b[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Tue Mar 5 00:23:33 2019 -0600
+
+    update
+
+[33mcommit 528eb79f4be1d080c5f8d0e46915f4eb89a9c343[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Mon Mar 4 19:18:18 2019 -0600
+
+    add lodash
+
+[33mcommit beddbe0f592fd001206f293ad98ca262df3884bb[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Fri Mar 1 01:32:10 2019 -0600
+
+    modify deploy setting on netlify
+
+[33mcommit d6bdc0228cf71d9752543fadb0113f91e0b678c3[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Tue Feb 26 20:26:04 2019 -0600
+
+    add render states on links
+
+[33mcommit ba6a5fbf38f7739bd8807a2e63329b8fac13bbd0[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Fri Feb 22 00:41:02 2019 -0600
+
+    changed the document query added target href
+
+[33mcommit a61c7e2f4e8d79df7e77a48893b92afe68f4ceda[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Fri Feb 22 00:17:30 2019 -0600
+
+    changed the document query and took out console log function
+
+[33mcommit 14296b7b8f4f1da5725c8e57d72348a9ad496aad[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Fri Feb 22 00:14:25 2019 -0600
+
+    changed the document query and took out console log function
+
+[33mcommit 68e9120b84600ff0431cb51c4e422ec225ea1cd1[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Fri Feb 22 00:05:51 2019 -0600
+
+    changed the document query and took out console log function
+
+[33mcommit 1ab636aed793b3d1e5144634c62551aac7132d79[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Thu Feb 21 21:23:39 2019 -0600
+
+    render navigation
+
+[33mcommit 8b207ccfd7b920c0d257fbdcac0181798db24528[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Wed Feb 20 20:14:31 2019 -0600
+
+    update js
+
+[33mcommit d0dd01e02d70a6ce4dc4fe4fd1c486fdfd2f4aa3[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Tue Feb 19 18:43:47 2019 -0600
+
+    create src files
+
+[33mcommit 386e1b129b908628742bfbcc2faf5041174f8805[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Mon Feb 18 19:09:11 2019 -0600
+
+    add javascript code
+
+[33mcommit 76cc3feb279abf6dbcd661d971f9f2c39b584c33[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Thu Feb 14 18:21:49 2019 -0600
+
+    update portfolio colors
+
+[33mcommit 715d7224477bc529148f70282c429236f9a37c28[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Thu Feb 7 21:18:23 2019 -0600
+
+    fixed grid to scale to smaller screen size
+
+[33mcommit 7359c9461e7767e69c152957804f682ab253c027[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Thu Feb 7 19:06:10 2019 -0600
+
+    add grid
+
+[33mcommit cca3531be81754b30c64b69555aa3fefd26d82be[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Mon Feb 4 21:12:39 2019 -0600
+
+    update divs
+
+[33mcommit 5a1934421ef7669e924699c548f2c822121b19ea[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Mon Feb 4 20:36:57 2019 -0600
+
+    start contact form
+
+[33mcommit 8c1da8102d1618bf60f215cf65e96a9d3a158e1e[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Mon Feb 4 19:36:10 2019 -0600
+
+    add contact form page
+
+[33mcommit 6dd4931045660719def6ab9c241c11589f68e671[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Mon Feb 4 03:48:08 2019 -0600
+
+    commit project 5
+
+[33mcommit a13322a61fb204cd17dfc95841ded0c18bf77e25[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Mon Feb 4 03:12:58 2019 -0600
+
+    redo portfolio
+
+[33mcommit 8ede04812479dfd94987b48c74087611ae07e919[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Sat Feb 2 14:44:17 2019 -0600
+
+    update
+
+[33mcommit 628ef0eef10edadfc3d542d9ec06b11cc925283f[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Thu Jan 31 20:44:09 2019 -0600
+
+    center item width padding and marigin
+
+[33mcommit c3b26cf6529794c429d096fcdf5fe9432d7bcd58[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Thu Jan 31 19:39:50 2019 -0600
+
+    add fomt styles to blog
+
+[33mcommit f2fc7acce62af8286ed4aea0047b744acfb2638c[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Thu Jan 31 19:10:55 2019 -0600
+
+    added stylesheet
+
+[33mcommit f10cd6426730cb74cc45d5169c5c26559ef9442b[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Thu Jan 31 18:14:27 2019 -0600
+
+    Update Nav and Showcase
+
+[33mcommit da651955e19a245fbe8ce4c50955761b1390a0a5[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Thu Jan 31 02:22:09 2019 -0600
+
+    update showcase css
+
+[33mcommit 208a3814c4000dc4ac63114fb038f68a0f48941d[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Wed Jan 30 18:21:28 2019 -0600
+
+    update portfolio
+
+[33mcommit 5480b3f84de9515176528e66110dad9bf167689a[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Wed Jan 30 18:17:17 2019 -0600
+
+    update portfolio
+
+[33mcommit f3c4b9ca937685fa712fd60e398fb3d5be02cf7e[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Wed Jan 30 03:10:21 2019 -0600
+
+    First commit
+
+[33mcommit 58a684d5ee4302bb78ee68ef9aa7e6c59dfdf140[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Wed Jan 30 02:34:13 2019 -0600
+
+    Update The Style of Nav Bar with CSS Stylesheets
+
+[33mcommit 729b59a1b00afbfdcde6146b453f471951f42f3f[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Tue Jan 29 21:17:31 2019 -0600
+
+    make some colorful styles
+
+[33mcommit 68574110f98810c66766a16f028534c98ddd6276[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Tue Jan 29 20:50:36 2019 -0600
+
+    Add interactive content
+
+[33mcommit 5b14e67004774b631dae38468a156bc21c80b0ba[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Tue Jan 29 20:13:09 2019 -0600
+
+    Add index.html
+
+[33mcommit 13a8e0d162bee5406a2c9c4ae5df7c9b224a49f9[m
+Author: Kevin Townson <ktown5422@gmail.com>
+Date:   Tue Jan 29 19:14:00 2019 -0600
+
+    First commit
